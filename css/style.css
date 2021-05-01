@@ -470,6 +470,10 @@ code {
 #about{
     z-index: 2;
 }
+
+.about-me{
+  padding: 30px;
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -498,6 +502,7 @@ code {
   height: .7rem;
   background-color: black;
 }
+
 
 /*======================================
 //--//-->   SERVICES

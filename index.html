@@ -18,7 +18,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/background.css" rel="stylesheet">
@@ -80,18 +80,16 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Projects</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">My Blog</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
+                <li class="nav-item"><a href="#intro" class="nav-link font-weight-bold text-uppercase js-scroll ">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link font-weight-bold text-uppercase js-scroll ">About</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link font-weight-bold text-uppercase js-scroll ">Services</a></li>
+                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase js-scroll ">Contact</a></li>
             </ul>
         </div>
     </nav>
   <!--/ Nav End /-->
 
-    <section >
+    <section id = "intro">
      <div class="context">
       <div id="home" class="intro route bg-image" >
         <div class="intro-content display-table">
@@ -200,9 +198,8 @@
             <div class="service-content">
               <h2 class="s-title">Web Development</h2>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                I make responsive interactive websites. I am a full stack web developer. Meaning I can make everything of the website front end, upload to the server and backend
+                for more complex web apps
               </p>
             </div>
           </div>
@@ -215,9 +212,9 @@
             <div class="service-content">
               <h2 class="s-title">mobile app Development</h2>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                I can make the front end of applications. I use react native and can make interactive stylish, high quality UI/UX designs.
+                Whether you supply the design or I design it
+                I can make your imagination come to reality for the apps.
               </p>
             </div>
           </div>
@@ -230,9 +227,8 @@
             <div class="service-content">
               <h2 class="s-title">Front-End Design</h2>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                I do front-end designing. I design UI/UX systems( Apps and Websites). When desinging the layout and style of the application, I focus
+                of user experience and the user interface so that your app/website can be of the best so that you have a good relationship with your clients.
               </p>
             </div>
           </div>
@@ -240,68 +236,117 @@
       </div>
     </div>
   </section>
+
+
+
   <!--/ Section Services End /-->
 
-  <section class = "skills">
-    <div class="courses-container">
-      <div class="course">
-        <div class="course-preview">
-          <h6>Course</h6>
-          <h2>JavaScript Fundamentals</h2>
-          <a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="course-info">
-          <div class="progress-container">
-            <div class="progress"></div>
-            <span class="progress-text">
-              6/9 Challenges
-            </span>
+<!--
+========================================== 
+  Section Skills
+==========================================
+-->
+  <section id="skills" class="skills-mf">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Skills To pay the bills
+            </h3>
+            <p class="subtitle-a">
+              Below are the skills that I have learned and that I use to complete projects.
+            </p>
+            <div class="line-mf"></div>
           </div>
-          <h6>Chapter 4</h6>
-          <h2>Callbacks & Closures</h2>
-          <button class="btn">Continue</button>
+        </div>
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="logo-html5" id="html"></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">HTML</h2>
+              <p class="s-description text-center">
+                All websites need html, and my experience with html allows me to do this
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="logo-css3" id="css"></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">CSS</h2>
+              <p class="s-description text-center">
+                I use css to give your websites style and personality. There is nothing worse than a boring website
+                with not personality.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="logo-javascript" id="javascript"></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">JavaScript</h2>
+              <p class="s-description text-center">
+                I use JavaScript to implement complex features into web pages. You want your website to do more than just
+                sit there and show you static information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="logo-python" id="python" ></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Python</h2>
+              <p class="s-description text-center">
+                I have experience in python. The reason I use python is for the Django backend framework. I use Django to make the backend for full stack websites
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="logo-react" id="react"></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">React</h2>
+              <p class="s-description text-center">
+                React is a JavaScript framework. I use React and React-Native to make mobile applications which are available on all platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skills-box">
+            <div class="skills-ico">
+              <span class="ion-icon"><ion-icon name="terminal-outline" id ="linux"></ion-icon></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Linux</h2>
+              <p class="s-description text-center">
+                I have experience with linux, linux terminal and linux servers. My experience with Linux enables me to
+                deploy websites to linux servers and set up servers for the website to run properly.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- SOCIAL PANEL HTML -->
-    <div class="social-panel-container">
-      <div class="social-panel">
-        <p>Created with <i class="fa fa-heart"></i> by
-          <a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
-        <button class="close-btn"><i class="fas fa-times"></i></button>
-        <h4>Get in touch on</h4>
-        <ul>
-          <li>
-            <a href="https://www.patreon.com/florinpop17" target="_blank">
-              <i class="fab fa-discord"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/florinpop1705" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/florinpop17" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com/florinpop17" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/florinpop17" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
+  </section>
+<!--Section Services End -->
 
 
 <!-- Preloader -->

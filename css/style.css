@@ -217,6 +217,48 @@ a:hover {
   transition: all 500ms ease;
 }
 
+/*- Skills -*/
+.skills-ico{
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-box{
+  justify-content: center;
+  text-align: center;  
+}
+
+.ion-icon {
+  height: 100%;
+  width: 100%;
+  font-size: 6rem;
+  line-height: 1.4;
+}
+
+.ion-icon #html{
+  color: #e34c26 ;
+}
+
+.ion-icon #css{
+  color:#264de4 ;
+}
+
+.ion-icon #javascript{
+  color: #f0db4f;
+}
+
+.ion-icon #python{
+  color: #f0db4f;
+}
+
+
+.ion-icon #react{
+  color:#61DBFB ;
+}
+
+.ion-icon #linux{
+  color: black;
+}
 /*------/ Ul resect /------*/
 
 .ul-resect,

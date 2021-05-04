@@ -217,6 +217,35 @@ a:hover {
   transition: all 500ms ease;
 }
 
+.socials #facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+
+.socials #instagram:hover {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+
+.socials #twitter:hover {
+  background-color: #00acee;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+.socials #linkedin:hover {
+  background-color: #0e76a8 ;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
 /*- Skills -*/
 .skills-ico{
   justify-content: center;
